@@ -4,25 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PenguDoku</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 52px;
+            margin-bottom: 10px;
+            color: #1f2937;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: #6b7280;
+            font-weight: normal;
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            margin-bottom: 35px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            align-items: center;
+        }
+
+        .links a {
+            text-decoration: none;
+            background: #2563eb;
+            color: white;
+            padding: 16px 30px;
+            border-radius: 10px;
+            width: 260px;
+            font-size: 20px;
+            font-weight: bold;
+            transition: 0.25s;
+        }
+
+        .links a:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            margin-top: 45px;
+            font-size: 14px;
+            color: #888888;
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>TEST PAGE IS WORKING</h1>
+<div class="container">
 
-    <h1>PenguDoku</h1>
+    <h1>🐧 PenguDoku</h1>
+
+    <h2>Official Website</h2>
 
     <p>
         Welcome to the official PenguDoku website.
+        <br><br>
+        This website contains the official legal documents and support information for PenguDoku.
     </p>
 
-    <p>
+    <div class="links">
         <a href="privacy.html">Privacy Policy</a>
-    </p>
-
-    <p>
         <a href="terms.html">Terms &amp; Conditions</a>
-    </p>
+    </div>
+
+    <footer>
+        © 2026 PenguDoku. All Rights Reserved.
+    </footer>
+
+</div>
 
 </body>
 </html>
